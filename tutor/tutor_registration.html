@@ -13,27 +13,15 @@
 
     <div class="container">
         <div class="registration-box">
-            <h1><b>Registration</b></h1>
+            <h1 style="font-weight: 550">Tutor Registration</h1>
 
             <div class="success-message" id="successMessage">
                 Registration submitted successfully!
             </div>
 
             <form id="registrationForm">
-
-
                 <div class="form-group">
-                    <input type="text" id="fullName" placeholder="Full Name :" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" placeholder="University Email:" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" id="studentid" placeholder="Student Id :" required>
-                </div>
-
-                <div class="form-group">
-                    <input type="text" id="role" placeholder="Role (Tutor/Student):" required>
+                    <input type="text" id="tutorid" placeholder="Tutor Id :" required>
                 </div>
 
                 <div class="form-group">
@@ -42,6 +30,13 @@
 
                 <div class="form-group">
                     <input type="password" id="password" placeholder="Password :" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="University Email:" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="courseid" placeholder="Course ID:" required>
                 </div>
 
                 <div class="button-group">
@@ -52,7 +47,7 @@
         </div>
     </div>
 
-    <script src="js/registration.js"></script>
+    <script src="js/tutor_registration.js"></script>
 </body>
 
 </html>
